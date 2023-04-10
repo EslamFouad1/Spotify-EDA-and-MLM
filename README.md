@@ -1,6 +1,14 @@
-Any good System Design question should reveal a lot about a candidate’s understanding of architecture and inner workings of large-scale systems. The question should be complex enough to engage the candidate and allow them to demonstrate their skill for building web-scale services, but not so complicated that the interviewee feels overwhelmed.
+Ever wondered how Spotify predicts a new playlist to a user based on the users current playlist or how YouTube predicts the following video users might want to watch next. Is this magic?
 
-When I interviewed SWE candidates at Facebook and Microsoft, I wasn’t just looking for strong coding skills and soft skills that demonstrated alignment with company values. I was also looking for a candidate who could design a software system that met requirements, explain the system’s architecture and tradeoffs, and dive deep into an area of specialization like API design or a recommendation engine.
+This happens because of machine learning-based recommendation systems. The recommendation system is a machine learning-based model that helps users discover new products or services based on users’ past preferences.
 
+The recommender system has become an essential element in the digital world, where users may confuse themselves due to an abundance of data. Thus, this feature can help users pick a product or service that perfectly fits their preference.
 
-[img](https://www.eliftech.com/insights/content/images/2023/02/Infographics-MRS--1-.jpg)
+What is a Recommendation System?
+A Recommendation System aims to predict the user’s choices and recommend the product or service that is likely to be interesting.
+
+These systems can do so because of user data. The function of a Recommendation System mainly depends on two kinds of information:
+
+Characteristic information: Information that defines the profile of a product (tag, category, etc.) or a user (preferences, profile, etc.).
+User-item interactions: Information that defines user-item relationship (rating, like/dislike, etc.).
+Based on this, we can categorize two broad classes of the algorithm used in a Recommendation System.
